@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Us - FitBlitz</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__logo">
+      <a href="index.html"><img src="assets/newlogo.png" alt="FitBlitz Logo"></a>
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="index.html">Home</a></li>
+      <li class="link"><a href="blogs.html">Blogs</a></li>
+      <li class="link"><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="section__container">
+    <h1 class="section__header">Contact Us</h1>
+    <p class="section__subheader">We'd love to hear from you! Reach out to us with any questions or feedback.</p>
+  </header>
+
+  <section class="section__container contact__container">
+    <div class="contact__form__wrapper">
+      <form class="contact__form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+    <div class="contact__info">
+      <h2>Our Location</h2>
+      <p>144/B James Street, Colombo 3</p>
+      <p>Phone: 0112227857 | 0774567322</p>
+      <p>Email: info@fitblitz.com</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9537353153166!3d-37.81627997975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d8b3c6b8b1b!2sJames%20St%2C%20Colombo%203!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <footer class="section__container footer__container">
+    <!-- ...existing footer content... -->
+  </footer>
+</body>
+</html>
