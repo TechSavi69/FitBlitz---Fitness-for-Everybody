@@ -59,13 +59,13 @@ FitBlitz/
 ## Screenshots
 
 ### Homepage
-![Homepage](assets/new%20header3.png)
+![Homepage](assets/Home page-FitBlitZ-Fitness For Every body.png)
 
 ### Blogs Page
-![Blogs Page](assets/blog1.jpeg)
+![Blogs Page](assets/Screenshot Blogs - FitBlitz.png)
 
 ### Contact Page
-![Contact Page](assets/newlogo.png)
+![Contact Page](assets/Screenshot Contact Us - FitBlitz.png)
 
 ---
 
